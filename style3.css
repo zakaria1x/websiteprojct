@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px; /* Changed to max-width to ensure responsiveness */
+    font-family: Arial, sans-serif;
+    /* Removed duplicate background-color */
+    margin: auto;
+    margin-top: 25px;
+}
+
+#xx {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Changed selector to match the button within .main */
+.main button[type="submit"] {
+    padding: 15px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #185617;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.main button[type="submit"]:hover {
+    background-color: #507a4f;
+   
+}
