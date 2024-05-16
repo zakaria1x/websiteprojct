@@ -216,6 +216,7 @@
  footer p {
      font-size: 13px;
      margin: 0 0 8px 0;
+     color: #010c0c;
  }
 
  footer .copyr {
@@ -283,6 +284,29 @@
  #cart table tbody   td  {    
     font-size: 13px;
  }
+ .total{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+ }
+ .total-title{
+    font-size:1rem ;
+    font-weight:600 ;
+ }
+  
+ .btn-buy{
+    display: flex;
+    padding: 5px 8px;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    background-color: #f3b3bc;
+    border: none;
+ }
+ .btn-buy:hover{
+    background-color: #d0727e;
+ }
+ 
 
 
 
